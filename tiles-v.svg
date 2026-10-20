@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="240" viewBox="0 0 60 240">
+  <!-- The tile strip turned on its side, for the hero's left and right borders. -->
+  <defs>
+    <path id="petal" d="M30 29C26.6 22.5 26.6 15.5 30 9.5C33.4 15.5 33.4 22.5 30 29Z"/>
+    <path id="leaf" d="M30 30C28.4 26 28.4 22 30 19.5C31.6 22 31.6 26 30 30Z"/>
+    <g id="flower">
+      <g fill="#9DB5AA">
+        <use href="#leaf" transform="rotate(22.5 30 30) translate(0 -12)"/>
+        <use href="#leaf" transform="rotate(112.5 30 30) translate(0 -12)"/>
+        <use href="#leaf" transform="rotate(202.5 30 30) translate(0 -12)"/>
+        <use href="#leaf" transform="rotate(292.5 30 30) translate(0 -12)"/>
+      </g>
+      <g opacity="0.55">
+        <use href="#petal" transform="rotate(45 30 30)"/>
+        <use href="#petal" transform="rotate(135 30 30)"/>
+        <use href="#petal" transform="rotate(225 30 30)"/>
+        <use href="#petal" transform="rotate(315 30 30)"/>
+      </g>
+      <g opacity="0.92">
+        <use href="#petal"/>
+        <use href="#petal" transform="rotate(90 30 30)"/>
+        <use href="#petal" transform="rotate(180 30 30)"/>
+        <use href="#petal" transform="rotate(270 30 30)"/>
+      </g>
+      <circle cx="30" cy="30" r="3.4" fill="#F6F2EA"/>
+      <circle cx="30" cy="30" r="1.7" fill="#B88A45"/>
+    </g>
+  </defs>
+  <g transform="translate(60 0) rotate(90)">
+  <rect width="240" height="60" fill="#F6F2EA"/>
+  <use href="#flower" fill="#16346A"/>
+  <use href="#flower" fill="#7B2E22" x="60"/>
+  <use href="#flower" fill="#6E86A8" x="120"/>
+  <use href="#flower" fill="#2A5A40" x="180"/>
+  <g fill="#7B2E22" opacity="0.8"><circle cx="0" cy="0" r="2.6"/><circle cx="60" cy="0" r="2.6"/><circle cx="120" cy="0" r="2.6"/><circle cx="180" cy="0" r="2.6"/><circle cx="240" cy="0" r="2.6"/><circle cx="0" cy="60" r="2.6"/><circle cx="60" cy="60" r="2.6"/><circle cx="120" cy="60" r="2.6"/><circle cx="180" cy="60" r="2.6"/><circle cx="240" cy="60" r="2.6"/></g>
+  <g fill="none" stroke="#16346A" stroke-width="0.8" opacity="0.7">
+    <rect x="0.4" y="0.4" width="239.2" height="59.2"/>
+    <path d="M60 0V60M120 0V60M180 0V60"/>
+  </g>
+  </g>
+</svg>

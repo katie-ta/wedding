@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="20" viewBox="0 0 200 20">
+  <!-- Divider: slender lines with leaf ticks and a red quatrefoil, like the save the date. -->
+  <g stroke="#6E86A8" stroke-width="1" fill="none" stroke-linecap="round">
+    <path d="M4 10H84M116 10H196"/>
+    <path d="M70 10l-6-4M70 10l-6 4M78 10l-6-4M78 10l-6 4"/>
+    <path d="M130 10l6-4M130 10l6 4M122 10l6-4M122 10l6 4"/>
+  </g>
+  <g fill="#6E86A8">
+    <path d="M4 10l4-2.5v5z"/>
+    <path d="M196 10l-4-2.5v5z"/>
+  </g>
+  <g fill="#7B2E22">
+    <circle cx="100" cy="5.6" r="3.6"/>
+    <circle cx="100" cy="14.4" r="3.6"/>
+    <circle cx="95.6" cy="10" r="3.6"/>
+    <circle cx="104.4" cy="10" r="3.6"/>
+  </g>
+  <circle cx="100" cy="10" r="1.6" fill="#F6F2EA"/>
+</svg>
